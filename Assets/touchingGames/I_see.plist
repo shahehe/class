@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>path</key>
+	<string>Assets/touchingGames/I See</string>
+	<key>title</key>
+	<string>I See</string>
+	<key>background</key>
+	<string>I_see_background.png</string>
+	<key>label</key>
+	<dict>
+		<key>fntFile</key>
+		<string>Didot.fnt</string>
+		<key>position</key>
+		<string>{0.303,0.146}</string>
+        <key>anchorPoint</key>
+        <string>{0,0.5}</string>
+	</dict>
+	<key>objects</key>
+	<dict>
+		<key>snail</key>
+		<dict>
+			<key>file</key>
+			<string>snail_small.png</string>
+			<key>audio</key>
+			<string>snail.mp3</string>
+			<key>content</key>
+			<string>I see a snail.</string>
+			<key>position</key>
+			<string>{0.911,0.404}</string>
+		</dict>
+		<key>shark</key>
+		<dict>
+			<key>file</key>
+			<string>shark_small.png</string>
+			<key>audio</key>
+			<string>shark.mp3</string>
+			<key>content</key>
+			<string>I see a shark.</string>
+			<key>position</key>
+			<string>{0.837,0.624}</string>
+		</dict>
+		<key>shrimp</key>
+		<dict>
+			<key>file</key>
+			<string>shrimp_small.png</string>
+			<key>audio</key>
+			<string>shrimp.mp3</string>
+			<key>content</key>
+			<string>I see a shrimp.</string>
+			<key>position</key>
+			<string>{0.934,0.799}</string>
+		</dict>
+		<key>spider</key>
+		<dict>
+			<key>file</key>
+			<string>spider_small.png</string>
+			<key>audio</key>
+			<string>spider.mp3</string>
+			<key>content</key>
+			<string>I see a spider.</string>
+			<key>position</key>
+			<string>{0.161,0.587}</string>
+		</dict>
+		<key>sheep</key>
+		<dict>
+			<key>file</key>
+			<string>sheep_small.png</string>
+			<key>audio</key>
+			<string>sheep.mp3</string>
+			<key>content</key>
+			<string>I see a sheep.</string>
+			<key>position</key>
+			<string>{0.107,0.401}</string>
+		</dict>
+		<key>snake</key>
+		<dict>
+			<key>file</key>
+			<string>snake_small.png</string>
+			<key>audio</key>
+			<string>snake.mp3</string>
+			<key>content</key>
+			<string>I see a snake.</string>
+			<key>position</key>
+			<string>{0.082,0.793}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

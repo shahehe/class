@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>letter</key>
+	<string>H</string>
+	<key>audioFileName</key>
+	<string>iDH.mp3</string>
+	<key>titlePeriod</key>
+	<string>{0,3.76}</string>
+	<key>soundNameWord</key>
+	<string>horse</string>
+	<key>images</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>frameFileName</key>
+			<string>letter_identification_bgimage_a.plist</string>
+			<key>textureFileName</key>
+			<string>bgH.png</string>
+		</dict>
+		<key>contents</key>
+		<array>
+			<dict>
+				<key>frameFileName</key>
+				<string>letter_identification_a.plist</string>
+				<key>textureFileName</key>
+				<string>letter_identification_a.pvr.ccz</string>
+			</dict>
+		</array>
+	</dict>
+	<key>scenes</key>
+	<array>
+		<dict>
+			<key>animations1</key>
+			<array>
+				<dict>
+					<key>firstFrameIndex</key>
+					<integer>1</integer>
+					<key>animationName</key>
+					<string>nod</string>
+					<key>framePrefix</key>
+					<string>02%04d.png</string>
+					<key>PlistName</key>
+					<string>noddingHorse</string>
+					<key>startTime</key>
+					<integer>2</integer>
+					<key>posX</key>
+					<real>0.15</real>
+					<key>posY</key>
+					<real>0.6</real>
+					<key>delay</key>
+					<string>0.1</string>
+				</dict>
+			</array>
+			<key>dialog</key>
+			<string>“Can you tell me who is our friend today?”  </string>
+			<key>audioPeriod</key>
+			<string>{0, 4}</string>
+		</dict>
+		<dict>
+			<key>animations</key>
+			<array>
+				<dict>
+					<key>firstFrameIndex</key>
+					<integer>1</integer>
+					<key>animationName</key>
+					<string>run</string>
+					<key>framePrefix</key>
+					<string>01%04d.png</string>
+					<key>PlistName</key>
+					<string>runningHorse</string>
+					<key>startTime</key>
+					<real>4.5</real>
+					<key>posX</key>
+					<real>0.15</real>
+					<key>posY</key>
+					<real>0.6</real>
+					<key>delay</key>
+					<string>0.1</string>
+				</dict>
+			</array>
+			<key>dialog</key>
+			<string>Here is a clue</string>
+			<key>audioPeriod</key>
+			<string>{4, 7}</string>
+		</dict>
+		<dict>
+			<key>dialog</key>
+			<string>Did you say car?  That’s right, our friend today is Cruiser the Car!  </string>
+			<key>audioPeriod</key>
+			<string>{8.092, 15.035}</string>
+		</dict>
+		<dict>
+			<key>dialog</key>
+			<string>Do you know what letter car starts with</string>
+			<key>audioPeriod</key>
+			<string>{15.813, 19.377}</string>
+			<key>animations</key>
+			<array>
+				<dict>
+					<key>commnet</key>
+					<string>moving in whiteboard (idx==0)</string>
+					<key>isNativeAnimation</key>
+					<true/>
+					<key>startTime</key>
+					<real>13.7</real>
+				</dict>
+				<dict>
+					<key>commnet</key>
+					<string>flash first letter (idx==1)</string>
+					<key>isNativeAnimation</key>
+					<true/>
+					<key>startTime</key>
+					<real>15.7</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>dialog</key>
+			<string>“Yes, car starts with the letter C!   This is a big C.  Can you say C?”</string>
+			<key>audioPeriod</key>
+			<string>{21.223, 31.649}</string>
+			<key>animations</key>
+			<array>
+				<dict>
+					<key>commnet</key>
+					<string>move letter to sticker (idx==2)</string>
+					<key>isNativeAnimation</key>
+					<true/>
+					<key>startTime</key>
+					<integer>24</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>animations</key>
+			<array>
+				<dict>
+					<key>firstFrameIndex</key>
+					<integer>1</integer>
+					<key>animationName</key>
+					<string>writeBigH</string>
+					<key>framePrefix</key>
+					<string>Big_H%02d.png</string>
+					<key>PlistName</key>
+					<string>BigHAnim</string>
+					<key>startTime</key>
+					<real>38.75</real>
+					<key>posX</key>
+					<real>0.4</real>
+					<key>posY</key>
+					<real>0.3</real>
+					<key>delay</key>
+					<string>0.3</string>
+				</dict>
+			</array>
+			<key>dialog</key>
+			<string>C!  Now this is how we write a big C.  (Screen shows C being written correctly). Can you try to write a big C using your finger?”</string>
+			<key>audioPeriod</key>
+			<string>{33.437, 44.060}</string>
+		</dict>
+		<dict>
+			<key>animations</key>
+			<array>
+				<dict>
+					<key>commnet</key>
+					<string>move letter to sticker (idx==3)</string>
+					<key>isNativeAnimation</key>
+					<true/>
+					<key>startTime</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+			<key>dialog</key>
+			<string>Now this is a little e.  (Show little e next to big E).  Can you say e again?”</string>
+			<key>audioPeriod</key>
+			<string>{46.243, 52.245}</string>
+		</dict>
+		<dict>
+			<key>animations</key>
+			<array>
+				<dict>
+					<key>firstFrameIndex</key>
+					<integer>1</integer>
+					<key>animationName</key>
+					<string>writelittleH</string>
+					<key>framePrefix</key>
+					<string>Little_h%02d.png</string>
+					<key>PlistName</key>
+					<string>LittleHAnim</string>
+					<key>startTime</key>
+					<real>59.25</real>
+					<key>posX</key>
+					<real>0.38</real>
+					<key>posY</key>
+					<real>0.32</real>
+					<key>delay</key>
+					<string>0.3</string>
+				</dict>
+			</array>
+			<key>dialog</key>
+			<string>C!  The little c is written the same way as the big C, just smaller. </string>
+			<key>audioPeriod</key>
+			<string>{54.253, 59.758}</string>
+		</dict>
+	</array>
+</dict>
+</plist>
